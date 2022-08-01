@@ -1,0 +1,33 @@
+
+#1
+Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups.
+#2
+K-means clustering is the most commonly used clustering algorithm. It's a centroid-based algorithm and the simplest unsupervised learning algorithm. This algorithm tries to minimize the variance of data points within a cluster. It's also how most people are introduced to unsupervised machine learning.
+DBSCAN is a popular density-based data clustering algorithm. To cluster data points, this algorithm separates the high-density regions of the data from the low-density areas. Unlike the K-Means algorithm, the best thing with this algorithm is that we don’t need to provide the number of clusters required prior.
+This algoithm is not sensitive to outliers
+
+#3
+ K-means clustering algorithm can be significantly improved by using a better initialization technique, and by repeating (re-starting) the algorithm. When the data has overlapping clusters, k-means can improve the results of the initialization technique.
+ 
+ #4
+ Backpropagation (backward propagation) is an important mathematical tool for improving the accuracy of predictions in data mining and machine learning. Essentially, backpropagation is an algorithm used to calculate derivatives quickly.
+
+The backpropagation algorithm works by computing the gradient of the loss function with respect to each weight by the chain rule, computing the gradient one layer at a time, iterating backward from the last layer to avoid redundant calculations of intermediate terms in the chain rule.
+
+#5
+Density based Clustering -In density-based clustering, data is grouped by areas of high concentrations of data points surrounded by areas of low concentrations of data points.
+Hierarchical-based clustering -Used on hierarchical data, like you would get from a company database or taxonomies. It builds a tree of clusters so everything is organized from the top-down.
+
+#6
+In Constructivist learning, the traditional classroom learning procedure is flipped. Instead of a teacher informing a child about a subject and constructing a meaning for them, in constructivist learning, children construct their own meanings. Now, this may not be the best approach for every learning environment, but it can be tremendously helpful at home.
+
+The home environment is where children primarily develop a sense of self and is the perfect setting for children to practice taking initiative in their learning via a Constructivist approach.
+#7
+ In "novelty detection", you have a data set that contains only good data, and you're trying to determine whether new observations fit within the existing data set. In "outlier detection", the data may contain outliers, which you want to identify.
+ 
+ #8
+ A Gaussian Mixture is a function that is comprised of several Gaussians, each identified by k ∈ {1,…, K}, where K is the number of clusters of our dataset. Each Gaussian k in the mixture is comprised of the following parameters: A mean μ that defines its centre. A covariance Σ that defines its width.
+
+ 
+
+ 
