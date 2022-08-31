@@ -1,0 +1,27 @@
+#1
+Hybrid Model: A technique that combines two or more different machine learning models in some way. But we can't get 95 percent precision as all other models give different precision rate accuracy is differed.
+
+#2
+ In hard voting (also known as majority voting), every individual classifier votes for a class, and the majority wins. In statistical terms, the predicted target label of the ensemble is the mode of the distribution of individually predicted labels.
+
+In soft voting, every individual classifier provides a probability value that a specific data point belongs to a particular target class. The predictions are weighted by the classifier's importance and summed up. Then the target label with the greatest sum of weighted probabilities wins the vote.
+
+#3
+ When sampling is performed without replacement, it is called pasting. In other words, both approaches are similar.In both cases you are sampling the training data to build multiple instances of a classifier.
+
+Boosting is a general ensemble method that creates a strong classifier from a number of weak classifiers. This is done by building a model from the training data, then creating a second model that attempts to correct the errors from the first model. It is the best starting point for understanding boosting.
+
+#4
+The advantage of the OOB method is that it requires less computation and allows one to test the model as it is being trained.
+#5
+ Random forest uses bootstrap replicas, that is to say, it subsamples the input data with replacement, whereas Extra Trees use the whole original sample. This may increase variance because bootstrapping makes it more diversified.
+
+Random forest adds additional randomness to the model, while growing the trees. Instead of searching for the most important feature while splitting a node, it searches for the best feature among a random subset of features. This results in a wide diversity that generally results in a better model. Extra Trees is much faster.
+
+This is because instead of looking for the optimal split at each node it does it randomly.
+
+#6
+ If your AdaBoost ensemble underfits the training data, you can try increasing the number of estimators or reducing the regularization hyperparameters of the base estimator. You may also try slightly increasing the learning rate.
+ 
+ #7
+  If your Gradient Boosting ensemble overfits the training set, you should try decreasing the learning rate. You could also use early stopping to find the right number of predictors (you probably have too many)
